@@ -1,0 +1,37 @@
+#	This is the configuration attributes file for JL2DE.												 
+#																										 
+#	All lines begining with '#' will be ignored by the configuration reader.							 
+#																										 
+#	All attributes must appear one per line with the following structure:								 
+#																										 
+#		[ATTRIBUTE_KEY]=[ATTRIBUTE_VALUE]																 
+#																										 
+#	Any attributes whose key does not appear in the following list will not be							 
+#	added to the configuration attributes.																 
+#																										 
+#	CONFIG_CHK	  [TRUE | FALSE]																		 
+#		This will determine whether the attributes set in this file are used, or if the user			 
+#		is prompted to select them. TRUE will result in the user being prompted.  If prompted the		 
+#		newly selected values will overwrite those in this file.										 
+#	WINDOW_WIDTH  [numeric from (DISPLAY_MIN)-(DISPLAY_MAX)]											 
+#		If the value is not supported by your display, the nearest match that IS supported will be used. 
+#	WINDOW_HEIGHT [numeric from (DISPLAY_MIN)-(DISPLAY_MAX)]											 
+#		If the value is not supported by your display, the nearest match that IS supported will be used. 
+#	FULL_SCREEN   [TRUE | FALSE]			Full screen or windowed										 
+#	INPUT_TYPE    [KEYBOARD | JOYSTICK ]		Joystick or Keyboard									 
+#		JOYSTICK will only be used if one is connected.													 
+#	DISPLAY	      [numeric from 0-5]		Which display to target										 
+#	SAMPLE_0.ANIM [cellW,  cellH, cellColCount, cellRowCount]
+#	SAMPLE_0.ANIM_FRAMES [index,index,index]
+#
+#
+WINDOW_HEIGHT=1080
+WINDOW_WIDTH=1920
+FULL_SCREEN=FALSE
+INPUT_TYPE=JOYSTICK
+CONFIG_CHK=FALSE
+ANIMATION_PATH=Assets/animations.txt
+UP.ANIM [cellW,  cellH, cellColCount, cellRowCount]
+UP.ANIM_FRAMES [index,index,index]
+DOWN.ANIM [cellW,  cellH, cellColCount, cellRowCount]
+DOWN.ANIM_FRAMES [index,index,index]

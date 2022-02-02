@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JL2DE", "JL2DE\JL2DE.vcxproj", "{BFB299FD-1A27-420A-93EA-F18AB66FD46C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFB299FD-1A27-420A-93EA-F18AB66FD46C}.Debug|x64.ActiveCfg = Debug|x64
+		{BFB299FD-1A27-420A-93EA-F18AB66FD46C}.Debug|x64.Build.0 = Debug|x64
+		{BFB299FD-1A27-420A-93EA-F18AB66FD46C}.Debug|x86.ActiveCfg = Debug|Win32
+		{BFB299FD-1A27-420A-93EA-F18AB66FD46C}.Debug|x86.Build.0 = Debug|Win32
+		{BFB299FD-1A27-420A-93EA-F18AB66FD46C}.Release|x64.ActiveCfg = Release|x64
+		{BFB299FD-1A27-420A-93EA-F18AB66FD46C}.Release|x64.Build.0 = Release|x64
+		{BFB299FD-1A27-420A-93EA-F18AB66FD46C}.Release|x86.ActiveCfg = Release|Win32
+		{BFB299FD-1A27-420A-93EA-F18AB66FD46C}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {322A3961-6B44-4B82-A261-C4244E1A2C99}
+	EndGlobalSection
+EndGlobal

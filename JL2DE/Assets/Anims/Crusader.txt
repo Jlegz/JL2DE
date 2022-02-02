@@ -1,0 +1,2 @@
+MOVE_UP - Frames: [31,32,33,34], FPS: 6 Looping
+MOVE_DOWN - Frames: [25,26,27,28], FPS: 6 Looping

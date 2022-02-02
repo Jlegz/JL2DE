@@ -1,0 +1,1 @@
+SAMPLE.ANIM={cellW,cellH,sheetW,sheetH{}}
